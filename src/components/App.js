@@ -2,6 +2,7 @@ import React from 'react';
 import Projects from './Projects';
 import SocialProfiles from './SocialProfiles';
 import Title from './Title';
+import Jokes from './Jokes';
 import profile from '../assets/profile.jpg'
 
 class App extends React.Component {
@@ -41,6 +42,9 @@ class App extends React.Component {
 
                 <hr />
                 <SocialProfiles />
+                
+                <hr />
+                <Jokes />
             </div>
         );
     }
